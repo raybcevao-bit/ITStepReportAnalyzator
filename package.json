@@ -1,0 +1,34 @@
+{
+  "name": "weekly-insights",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "templates": "node scripts/make-templates.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "@phosphor-icons/react": "^2.1.7",
+    "mammoth": "^1.13.0",
+    "next": "^15.5.0",
+    "papaparse": "^5.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "read-excel-file": "^5.8.0",
+    "recharts": "^3.2.0",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.0.0",
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "docx": "^9.15.1",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.6.0"
+  }
+}
